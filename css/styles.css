@@ -1,0 +1,85 @@
+
+body{
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color:#FFF;
+	background: url("../img/icons/test5.jpg");
+}
+
+h3{
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+Blockquote{
+color: #FC0;
+font-size: 2.3em;
+font-style:italic;
+letter-spacing: 2px;
+text-aligned:center;
+text-decoration:underline;
+font-family: 'Cinzel Decorative', cursive;
+}
+
+section{
+line-height:normal;
+text-indent:10%
+}
+
+nav li {
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 10px;
+}
+
+/* Base link styling */
+
+a{
+padding: 10px 10px 10px 40px;
+text-decoration: none;
+}
+
+nav a:hover {
+	color: #9F6;
+}
+
+nav a:active {
+	color: #000;
+}
+
+/* on hover show home icon */
+#home:hover {
+	background:url("../img/icons/home2.fw.png")#06F no-repeat left center;
+}
+
+/* on hover show past documents icon */
+#past:hover {
+	background: url("../img/icons/past.png") #06F no-repeat left center;
+}
+
+/* on hover show about me icon */
+
+#about:hover {
+	background: url("../img/icons/about.png") #06F no-repeat left center;
+}
+
+#home{
+	text-decoration: underline;
+}
+
+#past{
+font-family: "Open Sans", sans-serif;
+text-indent: 32px;
+line-height: 24px;
+image border: 10px solid #000;
+text-decoration: underline;
+}
+
+#about{
+text-decoration: underline;
+}
+
+Footer{
+font-family: arial;
+color:white;
+font-size: 10px;
+line-height: 16px;
+}
